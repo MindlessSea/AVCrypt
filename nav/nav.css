@@ -1,0 +1,47 @@
+.nav-container {
+    width: 98%;
+}
+
+nav {
+    position: sticky !important;
+
+    display: flex;
+    justify-content: space-between;
+
+    user-select: none;
+    user-zoom: 100%;
+
+    background-color: var(--color-quinary);
+    color: white;
+
+    top: 0;
+    z-index: 100;
+
+    padding: 1rem;
+
+    box-shadow: 0px 5px 10px var(--color-quinary);
+
+    border-radius: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    transition: 0.2s;
+    color: var(--color-senary);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+    gap: 1rem;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,78 @@
+:root {
+    --color-primary: #C1CFDA;
+    --color-secondary: #20A4F3;
+    --color-tertiary: #59F8E8;
+    --color-quaternary: #941C2F;
+    --color-quinary: #03191E;
+    --color-senary: #71BAE7;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--color-primary);
+    color: var(--color-quinary);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: var(--color-quinary);
+    color: white;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--color-senary);
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+textarea {
+    background-color: var(--color-quinary);
+    color: white;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+
+    resize: none;
+
+    width: 50%;
+    min-height: 8rem;
+}
+
+input {
+    background-color: var(--color-quinary);
+    color: white;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
